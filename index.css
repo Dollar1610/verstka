@@ -1,0 +1,785 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#root {
+  min-width: 100%;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0px 23px 21px 0 rgba(0, 0, 0, 0.14);
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 180px;
+  align-items: center;
+}
+.header .header-left {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header-left img {
+  width: 60px;
+  height: 60px;
+}
+.header .header-left div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .header-left div:first-child p {
+  display: flex;
+  font-size: 26px;
+  color: #2f3833;
+  font-family: Helvetica Neue sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.header .header-left p {
+  display: flex;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+}
+.header .header-center {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header-center div:first-child {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.header .header-center div:first-child p {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  font-family: Roboto sans-serif;
+  font-size: 14px;
+}
+.header .header-center a {
+  display: flex;
+  color: #05773a;
+  justify-content: flex-end;
+  font-family: Lato sans-serif;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.header .header-right {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header-right div:first-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.header .header-right div:first-child span:nth-child(2) {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: flex-end;
+  line-height: 1em;
+}
+.header .header-right div:first-child span:first-child {
+  display: flex;
+  margin-right: 5px;
+  font-size: 18px;
+  align-items: flex-end;
+}
+.header .header-right p {
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 5px;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+
+.center {
+  min-width: 100%;
+}
+.center .center-menu {
+  background-image: url("images/layer-11.jpg");
+  height: 569px;
+}
+.center .center-menu .big-text {
+  display: flex;
+  font-family: Roboto sans-serif;
+  width: 100%;
+  height: 489px;
+  font-size: 56px;
+}
+.center .center-menu .big-text .inner-align {
+  display: flex;
+  align-self: center;
+}
+.center .center-menu .big-text .inner-align .inner-text {
+  width: 503px;
+  height: 270px;
+}
+.center .center-menu .big-text .inner-align .inner-text span:first-child {
+  font-weight: 700;
+}
+.center .center-menu .big-text .inner-align .inner-text span:last-child {
+  font-weight: 500;
+  color: #d6d600;
+}
+.center .center-menu .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+.center .center-menu .nav-menu .button-call {
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  width: 129px;
+  background-color: #d6d600;
+  color: #2f3833;
+  border-radius: 5px;
+  border: none;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.center .center-menu .nav-menu .menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.center .center-menu .nav-menu .menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  list-style-type: none;
+}
+.center .center-menu .nav-menu .menu ul a {
+  font-size: 13px;
+  font-family: Lato-Regular sans-serif;
+}
+.center .center-info {
+  display: flex;
+  margin-top: 126px;
+}
+.center .center-info .info-menu {
+  display: flex;
+  margin-right: 40px;
+}
+.center .center-info .info-menu ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+.center .center-info .info-menu ul a {
+  display: flex;
+  border-bottom: 1px solid rgba(44, 44, 44, 0.5);
+  color: #2c2c2c;
+  height: 48px;
+  width: 170px;
+  align-items: center;
+  opacity: 0.87;
+  font-size: 15px;
+}
+.center .center-info .information .text_info {
+  display: flex;
+  flex-direction: column;
+}
+.center .center-info .information .text_info h1 {
+  display: flex;
+  font-size: 24px;
+  color: #2c2c2c;
+  font-family: ProximaNova-Black sans-serif;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.center .center-info .information .text_info .images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.center .center-info .information .text_info .images img {
+  display: flex;
+  width: 158px;
+  margin-right: 3%;
+}
+.center .center-info .information .text_info .images img:last-child {
+  margin-right: 0;
+}
+.center .center-info .information .text_info .middle-image img {
+  margin-top: 35px;
+  width: 100%;
+}
+.center .center-info .information .text_info span {
+  margin-top: 35px;
+  font-weight: 700;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+.center .center-info .information .text_info p {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  color: #2c2c2c;
+  margin-top: 20px;
+}
+.center .center-info .information .center-partners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+}
+.center .center-info .information .center-partners h1 {
+  font-size: 24px;
+  display: flex;
+  font-family: ProximaNova-Black sans-serif;
+  color: #2c2c2c;
+  font-weight: 700;
+}
+.center .center-info .information .center-partners .partners {
+  display: flex;
+  margin-top: 28px;
+  width: 100%;
+  height: 184px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.2);
+  border: 5px solid #f0e500;
+  border-bottom: 5px solid #00763e;
+}
+.center .center-info .information .center-partners .partners .logo-rosneft {
+  display: flex;
+  width: 170px;
+  height: 44px;
+  margin: 0 25px;
+}
+.center .center-info .information .center-partners .partners .logo-bashneft {
+  display: flex;
+  width: 169px;
+  height: 39px;
+  margin: 0 25px;
+}
+.center .center-info .information .center-partners .partners .logo-transneft {
+  display: flex;
+  width: 163px;
+  height: 31px;
+  margin: 0 25px;
+}
+.center .center-info .information .center-partners .partners .logo-tatneft {
+  display: flex;
+  width: 162px;
+  height: 45px;
+  margin: 0 25px;
+}
+.center .center-info .information .center-partners .partners .logo-umpo {
+  display: flex;
+  width: 147px;
+  height: 50px;
+  margin: 0 25px;
+}
+
+/**********************/
+footer {
+  margin-top: 92px;
+  width: 100%;
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+.footer {
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-logo {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+}
+.footer .footer-logo img {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+}
+.footer .footer-logo div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .footer-logo div:first-child p {
+  display: flex;
+  font-size: 26px;
+  color: #8c8c8c;
+  font-family: Helvetica Neue sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.footer .footer-logo p {
+  display: flex;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  color: #8c8c8c;
+  margin-bottom: 0;
+}
+.footer .footer-address {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+}
+.footer .footer-address div:first-child {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-address div:first-child p {
+  display: flex;
+  margin-bottom: 0;
+  font-family: Roboto sans-serif;
+  font-size: 13px;
+  color: #7b7b7b;
+}
+.footer .footer-address .footer-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.footer .footer-address .footer-social ul {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 0;
+  height: 30px;
+}
+.footer .footer-address .footer-social p {
+  display: flex;
+  color: #8c8c8c;
+  margin: 0;
+  font-size: 12px;
+}
+.footer .footer-address .footer-social a {
+  display: flex;
+}
+.footer .footer-address .footer-social img {
+  height: 25px;
+  width: 25px;
+}
+.footer .footer-contacts {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+}
+.footer .footer-contacts div:first-child {
+  display: flex;
+}
+.footer .footer-contacts div:first-child span:nth-child(2) {
+  display: flex;
+  font-size: 19px;
+  font-weight: bold;
+  color: #7b7b7b;
+}
+.footer .footer-contacts div:first-child span:first-child {
+  display: flex;
+  margin-right: 5px;
+  font-size: 19px;
+  color: #7b7b7b;
+}
+.footer .footer-contacts p {
+  display: flex;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #7b7b7b;
+}
+.footer .footer-tort-studio {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-tort-studio span {
+  display: flex;
+  color: #898989;
+  font-size: 12px;
+  width: 90%;
+  justify-content: center;
+}
+.footer .footer-tort-studio div {
+  display: flex;
+  flex-direction: row;
+}
+.footer .footer-tort-studio p:first-child {
+  font-family: Proxima Nova sans-serif;
+  display: flex;
+  color: #f96331;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.footer .footer-tort-studio p:nth-child(2) {
+  font-family: Proxima Nova sans-serif;
+  display: flex;
+  color: #898989;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199.98px) {
+  .text_info .images img {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .center .center-menu .nav-menu .menu ul {
+    justify-content: flex-start;
+  }
+  .center .center-menu .nav-menu .menu ul li a {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  /*масштабирование для подвала сайта*/
+  .footer .footer-logo div:first-child p {
+    font-size: 18.2px;
+  }
+  .footer .footer-logo p {
+    font-size: 8.4px;
+  }
+  .footer .footer-logo img {
+    width: 42px;
+    height: 42px;
+  }
+  .footer .footer-address div:first-child p {
+    font-size: 9.8px;
+  }
+  .footer .footer-address a {
+    font-size: 8.4px;
+  }
+  .footer .footer-social ul {
+    width: 91px;
+  }
+  .footer .footer-social p {
+    font-size: 8.4px;
+  }
+  .footer .footer-social img {
+    height: 17.5px;
+    width: 17.5px;
+  }
+  .footer .footer-contacts div:first-child span:first-child, .footer .footer-contacts div:first-child span:nth-child(2) {
+    font-size: 13.3px;
+  }
+  .footer .footer-contacts p {
+    font-size: 11.2px;
+  }
+  .footer .footer-tort-studio span {
+    font-size: 8.4px;
+  }
+  .footer .footer-tort-studio p:first-child, .footer .footer-tort-studio p:nth-child(2) {
+    font-size: 17.5px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*Масштабирование для шапки сайта*/
+  .header .header-left div:first-child p {
+    font-size: 18.2px;
+  }
+  .header .header-left p {
+    font-size: 8.4px;
+  }
+  .header .header-left img {
+    width: 42px;
+    height: 42px;
+  }
+  .header .header-center div:first-child p {
+    font-size: 9.8px;
+  }
+  .header .header-center a {
+    font-size: 8.4px;
+  }
+  .header .header-right div:first-child span:first-child {
+    font-size: 12.6px;
+  }
+  .header .header-right div:first-child span:nth-child(2) {
+    font-size: 16.8px;
+  }
+  .header .header-right p {
+    font-size: 11.2px;
+  }
+
+  /*Масштабирование тела сайта блока center-info*/
+  .center .center-menu {
+    height: 398.3px;
+  }
+  .center .center-menu .nav-menu .button-call {
+    font-size: 8.4px;
+    height: 25.2px;
+    width: 90.3px;
+  }
+  .center .center-menu .nav-menu .menu ul {
+    justify-content: flex-start;
+  }
+  .center .center-menu .nav-menu .menu ul li a {
+    width: 100%;
+    margin-right: 10px;
+    font-size: 9.1px;
+  }
+  .center .center-menu .big-text {
+    font-size: 39.2px;
+    height: 342.3px;
+  }
+  .center .center-menu .big-text .inner-align .inner-text {
+    width: 352.1px;
+    height: 189px;
+  }
+  .center .center-info .information .text_info h1 {
+    font-size: 16.8px;
+  }
+  .center .center-info .information .text_info span, .center .center-info .information .text_info p {
+    font-size: 11.2px;
+  }
+  .center .center-info .information .center-partners .partners .logo-rosneft {
+    display: flex;
+    width: 119px;
+    height: 30.8px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-bashneft {
+    display: flex;
+    width: 118.3px;
+    height: 27.3px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-transneft {
+    display: flex;
+    width: 114.1px;
+    height: 21.7px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-tatneft {
+    display: flex;
+    width: 113.4px;
+    height: 31.5px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-umpo {
+    display: flex;
+    width: 102.9px;
+    height: 35px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .info-menu ul a {
+    height: 33.6px;
+    width: 119px;
+    font-size: 10.5px;
+  }
+
+  /*масштабирование подвала*/
+  .footer .footer-logo div:first-child p {
+    font-size: 13px;
+  }
+  .footer .footer-logo p {
+    font-size: 6px;
+  }
+  .footer .footer-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer .footer-address div:first-child p {
+    font-size: 7px;
+  }
+  .footer .footer-address a {
+    font-size: 6px;
+  }
+  .footer .footer-address .footer-social ul {
+    width: 65px;
+  }
+  .footer .footer-address .footer-social p {
+    font-size: 6px;
+  }
+  .footer .footer-address .footer-social img {
+    height: 12.5px;
+    width: 12.5px;
+  }
+  .footer .footer-contacts div:first-child span:first-child, .footer .footer-contacts div:first-child span:nth-child(2) {
+    font-size: 9.5px;
+  }
+  .footer .footer-contacts p {
+    font-size: 8px;
+  }
+  .footer .footer-tort-studio span {
+    font-size: 6px;
+  }
+  .footer .footer-tort-studio p:first-child, .footer .footer-tort-studio p:nth-child(2) {
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 575.98px) {
+  .header .header-left div:first-child p {
+    font-size: 13px;
+  }
+  .header .header-left p {
+    font-size: 6px;
+  }
+  .header .header-left img {
+    width: 30px;
+    height: 30px;
+  }
+  .header .header-center div:first-child p {
+    font-size: 7px;
+  }
+  .header .header-center a {
+    font-size: 6px;
+  }
+  .header .header-right div:first-child span:first-child {
+    font-size: 9px;
+  }
+  .header .header-right div:first-child span:nth-child(2) {
+    font-size: 12px;
+  }
+  .header .header-right p {
+    font-size: 8px;
+  }
+
+  .center .center-menu {
+    height: 398.3px;
+  }
+  .center .center-menu .nav-menu .button-call {
+    font-size: 8.4px;
+    height: 25.2px;
+    width: 90.3px;
+  }
+  .center .center-menu .nav-menu .menu ul {
+    justify-content: flex-start;
+  }
+  .center .center-menu .nav-menu .menu ul li a {
+    width: 100%;
+    margin-right: 10px;
+    font-size: 9.1px;
+  }
+  .center .center-menu .big-text {
+    font-size: 39.2px;
+    height: 342.3px;
+  }
+  .center .center-menu .big-text .inner-align .inner-text {
+    width: 352.1px;
+    height: 189px;
+  }
+  .center .center-info .information .text_info h1 {
+    font-size: 16.8px;
+  }
+  .center .center-info .information .text_info span, .center .center-info .information .text_info p {
+    font-size: 11.2px;
+  }
+  .center .center-info .information .center-partners .partners .logo-rosneft {
+    display: flex;
+    width: 119px;
+    height: 30.8px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-bashneft {
+    display: flex;
+    width: 118.3px;
+    height: 27.3px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-transneft {
+    display: flex;
+    width: 114.1px;
+    height: 21.7px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-tatneft {
+    display: flex;
+    width: 113.4px;
+    height: 31.5px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .information .center-partners .partners .logo-umpo {
+    display: flex;
+    width: 102.9px;
+    height: 35px;
+    margin: 0 17.5px;
+  }
+  .center .center-info .info-menu ul a {
+    height: 33.6px;
+    width: 119px;
+    font-size: 10.5px;
+  }
+
+  /*масштабирование подвала*/
+  .footer .footer-logo div:first-child p {
+    font-size: 13px;
+  }
+  .footer .footer-logo p {
+    font-size: 6px;
+  }
+  .footer .footer-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer .footer-address div:first-child p {
+    font-size: 7px;
+  }
+  .footer .footer-address a {
+    font-size: 6px;
+  }
+  .footer .footer-address .footer-social ul {
+    width: 65px;
+  }
+  .footer .footer-address .footer-social p {
+    font-size: 6px;
+  }
+  .footer .footer-address .footer-social img {
+    height: 12.5px;
+    width: 12.5px;
+  }
+  .footer .footer-contacts div:first-child span:first-child, .footer .footer-contacts div:first-child span:nth-child(2) {
+    font-size: 9.5px;
+  }
+  .footer .footer-contacts p {
+    font-size: 8px;
+  }
+  .footer .footer-tort-studio span {
+    font-size: 6px;
+  }
+  .footer .footer-tort-studio p:first-child, .footer .footer-tort-studio p:nth-child(2) {
+    font-size: 12.5px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
